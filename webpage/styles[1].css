@@ -6,7 +6,6 @@
   #title{
     background-color: black;
     padding-bottom: 30px;
-    height:25%
     width: 100%;
     text-align:center;
   }
@@ -58,14 +57,30 @@
     margin:auto;
   }
   #Volunteer{
-    background-color:rgb(77, 81, 84);
-    height: 75%;
+    height:750px;
+    background-color:red;
+    display:flex;
+    align-items: center;
   }
   #Studentaccept{
     padding-left: 25px;
     font-family: "Roboto";
     font-weight: bolder;
   }
+  #map{
+    height:75%;
+    width:100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 12px;
+    align-items: center;
+  }
+  #ap{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 40px;
+  }
+  
   #pricing{
     padding: 7% 15%;
     font-family: "Montserrat";
@@ -83,6 +98,7 @@
     padding-bottom: 50px;
   
   }
+
   .p-pricing{
     font-family: "Open Sans Condensed";
     font-size: 1.3rem;
@@ -124,7 +140,7 @@
   }
   .humanity_pic{
     width: 200px;
-    height: 100px;
+    height: 200px;
   }
   .info{
     font-family:"Roboto";
